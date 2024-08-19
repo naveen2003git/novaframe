@@ -6,7 +6,6 @@ import CEO from "./Assests/CEO.jpg";
 import XFounder from "./Assests/XFoundex.jpg";
 import Developer from "./Assests/Developer.jpg";
 import Slider from 'react-slick';
-import Finance from "./Assests/Finance.jpg";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import VideoEditing from "./Assests/vid1.png";
@@ -38,36 +37,17 @@ import emailjs from 'emailjs-com';
 const App: React.FC = () => {
 
   const [isOpen, setIsOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState("");
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleScroll = () => {
-    const sections = document.querySelectorAll("section");
-    let currentSection: any = "";
 
-    sections.forEach((section) => {
-      const sectionTop = section.offsetTop;
-      const sectionHeight = section.clientHeight;
-      if (window.scrollY >= sectionTop - sectionHeight / 3) {
-        currentSection = section.getAttribute("id");
-      }
-    });
 
-    setActiveLink(currentSection);
-  };
 
-  const [translateX, setTranslateX] = useState(0);
 
-  const handleMoveLeft = () => {
-    setTranslateX(prev => prev - 100); // Move left by 100px or any step size
-  };
 
-  const handleMoveRight = () => {
-    setTranslateX(prev => prev + 100); // Move right by 100px or any step size
-  };
+  
 
 
   useEffect(() => {
@@ -83,12 +63,13 @@ const App: React.FC = () => {
     message: '',
   });
   const [loading, setLoading] = useState(false);
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  const phoneRegex = /^\+?\d{10,15}$/; // Adjust this regex based on your expected phone number format
+ // Adjust this regex based on your expected phone number format
   const [isFormValid, setIsFormValid] = useState(false);
 
   useEffect(() => {
     // Validate all fields including email and phone number
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phoneRegex = /^\+?\d{10,15}$/;
     const isValid =
       formData.from_name.trim() !== '' &&
       emailRegex.test(formData.from_name) &&
@@ -216,39 +197,39 @@ const App: React.FC = () => {
     { name: "Full-time colleagues", value: "5+" },
   ];
 
-  const Team = [
-    {
-      name: "Hari Prasanth .S.N",
-      role: "CEO & Founder",
-      image: CEO
-    },
-    {
-      name: "Prema .S",
-      role: "Founder Member & Managing Director",
-      image: XFounder
-    },
-    {
-      name: "Kavin .C.S",
-      role: "Head of Software Development",
-      image: Developer
-    },
-    {
-      name: "Malathi .A",
-      role: "Chief Financial Officer",
-      image: Finanace
-    },
+  // const Team = [
+  //   {
+  //     name: "Hari Prasanth .S.N",
+  //     role: "CEO & Founder",
+  //     image: CEO
+  //   },
+  //   {
+  //     name: "Prema .S",
+  //     role: "Founder Member & Managing Director",
+  //     image: XFounder
+  //   },
+  //   {
+  //     name: "Kavin .C.S",
+  //     role: "Head of Software Development",
+  //     image: Developer
+  //   },
+  //   {
+  //     name: "Malathi .A",
+  //     role: "Chief Financial Officer",
+  //     image: Finanace
+  //   },
 
-  ]
+  // ]
 
   return (
     <div className="h-screen w-full bg-cover bg-center" style={{ backgroundImage: `url(${bgImg})`, width: '100%', backgroundColor: 'red' }}>
       <header>
         <nav className="fixed top-0 z-50 bg-black w-full  border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
           <div className="flex flex-wrap justify-between items-center mx-auto ">
-            <a className="flex items-center">
+            <main className="flex items-center">
               <img src={logo} className="mr-3 h-8 sm:h-9" alt="Flowbite Logo" />
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-white">Nova Frames</span>
-            </a>
+            </main>
             <div className="flex items-center lg:order-2">
               <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false" onClick={toggleMenu}>
                 <span className="sr-only">Open main menu</span>
