@@ -222,7 +222,7 @@ const App: React.FC = () => {
   // ]
 
   return (
-    <div className="h-screen w-full bg-cover bg-center" style={{ backgroundImage: `url(${bgImg})`, width: '100%', backgroundColor: 'red' }}>
+    <div className="h-screen w-full bg-cover bg-center" style={{ backgroundImage: `url(${bgImg})`, width: '100%', backgroundColor: 'black' }}>
       <header>
         <nav className="fixed top-0 z-50 bg-black w-full  border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
           <div className="flex flex-wrap justify-between items-center mx-auto ">
