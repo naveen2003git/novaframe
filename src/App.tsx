@@ -95,7 +95,7 @@ const App: React.FC = () => {
     if (formRef.current) {
       emailjs.sendForm(
         'service_4yg12dp',           // Your service ID
-        'template_436e9dqr',          // Your template ID
+        'template_436e9dr',          // Your template ID
         formRef.current,             // The HTML form element, guaranteed to be non-null
         'K-8uwDqXUVmsdV_m9'          // Your public key
       )
@@ -644,7 +644,8 @@ const App: React.FC = () => {
                     </svg>
                     <span className="sr-only">Loading...</span>
                   </div>
-                }  </div><div>Submit</div>
+                }  </div>
+                {!loading && <div>Submit</div>}
 
 
               </button>
