@@ -510,7 +510,7 @@ const App: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="p-4">
+            {/* <div className="p-4">
               <div className="relative grid h-[35rem] w-full flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
                 <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent  bg-cover bg-clip-border bg-center text-gray-700 shadow-none" style={{ backgroundImage: `url(${Finanace})` }}>
                   <div className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
@@ -520,7 +520,7 @@ const App: React.FC = () => {
                   <h5 className="block mb-4 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-400">Malathi .A</h5>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Slider>
         </div>
       </section>
