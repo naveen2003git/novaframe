@@ -420,7 +420,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </section>
-      <section id="team" className="container mx-auto mt-16 sm:block" data-aos="fade-up" data-aos-duration="3000">
+      <section id="team" className="container mx-auto mt-16 sm:block  hidden" data-aos="fade-up" data-aos-duration="3000">
         <div className="text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet Our Team</p>
           <p className="my-8 lg:mb-16 font-light text-gray-500 dark:text-gray-400 sm:text-xl">
