@@ -420,55 +420,57 @@ const App: React.FC = () => {
           </div>
         </div>
       </section>
-      <section id="team" className="container sm:block hidden mt-16 mx-auto " data-aos="fade-up" data-aos-duration="3000">
-        <div className="flex  justify-center">
+      <section id="team" className="container mx-auto mt-16 sm:block" data-aos="fade-up" data-aos-duration="3000">
+        <div className="text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet Our Team</p>
-        </div>
-        <p className="my-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-16">
-          <div className="relative grid h-[30rem] w-full max-w-[21rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-            <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent  bg-cover bg-clip-border bg-center  text-gray-700 shadow-none" style={{ backgroundImage: `url(${CEO})` }}>
-              <div className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
-            </div>
-            <div className="relative p-6 px-6 py-14 md:px-12">
-              <h2 className="mb-6 block font-sans text-3xl font-medium leading-[1.5] tracking-normal text-white antialiased">CEO & Founder</h2>
-              <h5 className="block mb-4 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-400">Hari Prasanth .S.N</h5>
-              {/* <img alt="Tania Andrew" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80" className="relative inline-block h-[74px] w-[74px] !rounded-full border-2 border-white object-cover object-center" /> */}
-            </div>
-          </div>
-          <div className="relative grid h-[30rem] w-full max-w-[21rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-            <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent  bg-cover bg-clip-border bg-center text-gray-700 shadow-none" style={{ backgroundImage: `url(${XFounder})` }}>
-              <div className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
-            </div>
-            <div className="relative p-6 px-6 py-14 md:px-12">
-              <h2 className="mb-6 block font-sans text-2xl font-medium leading-[1.5] tracking-normal text-white antialiased">Founder Member & Managing Director</h2>
-              <h5 className="block mb-4 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-400">Prema .T</h5>
-              {/* <img alt="Tania Andrew" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80" className="relative inline-block h-[74px] w-[74px] !rounded-full border-2 border-white object-cover object-center" /> */}
-            </div>
-          </div>
-          <div className="relative grid h-[30rem] w-full max-w-[21rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-            <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent  bg-cover bg-clip-border bg-center text-gray-700 shadow-none" style={{ backgroundImage: `url(${Developer})` }}>
-              <div className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
-            </div>
-            <div className="relative p-6 px-6 py-14 md:px-12">
-              <h2 className="mb-6 block font-sans text-2xl font-medium leading-[1.5] tracking-normal text-white antialiased">Head of Software Department</h2>
-              <h5 className="block mb-4 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-400">Kavin .C.S</h5>
-              {/* <img alt="Tania Andrew" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80" className="relative inline-block h-[74px] w-[74px] !rounded-full border-2 border-white object-cover object-center" /> */}
-            </div>
-          </div>
-          <div className="relative grid h-[30rem] w-full max-w-[21rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-            <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent  bg-cover bg-clip-border bg-center text-gray-700 shadow-none" style={{ backgroundImage: `url(${Finanace})` }}>
-              <div className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
-            </div>
-            <div className="relative p-6 px-6 py-14 md:px-12">
-              <h2 className="mb-6 block font-sans text-2xl font-medium leading-[1.5] tracking-normal text-white antialiased">Chief Financial Officer</h2>
-              <h5 className="block mb-4 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-400">Malathi .A</h5>
-              {/* <img alt="Tania Andrew" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80" className="relative inline-block h-[74px] w-[74px] !rounded-full border-2 border-white object-cover object-center" /> */}
-            </div>
-          </div>
+          <p className="my-8 lg:mb-16 font-light text-gray-500 dark:text-gray-400 sm:text-xl">
+            Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
+          </p>
         </div>
 
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 mt-10 place-items-center">
+          {/* Team Member 1 */}
+          <div className="relative grid h-[30rem] w-[21rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+            <div
+              className="absolute inset-0 m-0 h-full w-full overflow-hidden bg-cover bg-center"
+              style={{ backgroundImage: `url(${CEO})` }}
+            >
+              <div className="absolute inset-0 w-full h-full bg-gradient-to-t from-black/80 via-black/50"></div>
+            </div>
+            <div className="relative p-6 px-6 py-14 md:px-12">
+              <h2 className="mb-6 text-3xl font-medium text-white">CEO & Founder</h2>
+              <h5 className="text-xl font-semibold text-gray-400">Hari Prasanth .S.N</h5>
+            </div>
+          </div>
+
+          {/* Team Member 2 */}
+          <div className="relative grid h-[30rem] w-[21rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+            <div
+              className="absolute inset-0 m-0 h-full w-full overflow-hidden bg-cover bg-center"
+              style={{ backgroundImage: `url(${XFounder})` }}
+            >
+              <div className="absolute inset-0 w-full h-full bg-gradient-to-t from-black/80 via-black/50"></div>
+            </div>
+            <div className="relative p-6 px-6 py-14 md:px-12">
+              <h2 className="mb-6 text-2xl font-medium text-white">Founder Member & Managing Director</h2>
+              <h5 className="text-xl font-semibold text-gray-400">Prema .T</h5>
+            </div>
+          </div>
+
+          {/* Team Member 3 */}
+          <div className="relative grid h-[30rem] w-[21rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+            <div
+              className="absolute inset-0 m-0 h-full w-full overflow-hidden bg-cover bg-center"
+              style={{ backgroundImage: `url(${Developer})` }}
+            >
+              <div className="absolute inset-0 w-full h-full bg-gradient-to-t from-black/80 via-black/50"></div>
+            </div>
+            <div className="relative p-6 px-6 py-14 md:px-12">
+              <h2 className="mb-6 text-2xl font-medium text-white">Head of Software Department</h2>
+              <h5 className="text-xl font-semibold text-gray-400">Kavin .C.S</h5>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="team" className="container  sm:hidden block mt-16 mx-auto " data-aos="fade-up" data-aos-duration="3000">
