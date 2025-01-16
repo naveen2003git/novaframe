@@ -127,7 +127,7 @@ const App: React.FC = () => {
     { img: client5, name: "Kiruthis_vlogs" },
     { img: client6, name: "Walkwithjai" },
     { img: client7, name: "Madras__foodie" },
-    { img: client8, name: "ExploreWithDeeps" },
+    // { img: client8, name: "ExploreWithDeeps" },
     { img: client9, name: "Abi tamil youtuber" },
     { img: client10, name: "theSingleshq" },
     { img: client11, name: "Rams.review" },
