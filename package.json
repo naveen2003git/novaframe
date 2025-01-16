@@ -27,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +53,7 @@
     "@types/aos": "^3.0.7",
     "@types/react-slick": "^0.23.13",
     "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10"
   }

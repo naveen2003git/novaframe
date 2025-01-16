@@ -15,10 +15,6 @@ module.exports = {
         marquee1: 'marquee 10s linear infinite alternate',  // added 'alternate' for the reverse effect
 
       },
-      animation: {
-        marquee: 'marquee 20s linear infinite alternate',  // added 'alternate' for the reverse effect
-        
-      },
       keyframes: {
         marquee: {
           '0%': { transform: 'translateX(0%)' },

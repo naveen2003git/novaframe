@@ -18,7 +18,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
 import logo from "./Assests/logo.png";
-import Finanace from "./Assests/Finance.jpg"
 import client1 from "./Assests/clients/a1.png";
 import client2 from "./Assests/clients/a2.png";
 import client3 from "./Assests/clients/a3.png";
@@ -26,7 +25,6 @@ import client4 from "./Assests/clients/a4.png";
 import client5 from "./Assests/clients/a5.png";
 import client6 from "./Assests/clients/a6.png";
 import client7 from "./Assests/clients/a7.png";
-import client8 from "./Assests/clients/a8.png";
 import client9 from "./Assests/clients/a9.png";
 import client10 from "./Assests/clients/a10.png";
 import client11 from "./Assests/clients/a11.png";
