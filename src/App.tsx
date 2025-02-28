@@ -25,10 +25,15 @@ import client4 from "./Assests/clients/a4.png";
 import client5 from "./Assests/clients/a5.png";
 import client6 from "./Assests/clients/a6.png";
 import client7 from "./Assests/clients/a7.png";
+import client8 from "./Assests/clients/a8.png";
 import client9 from "./Assests/clients/a9.png";
 import client10 from "./Assests/clients/a10.png";
 import client11 from "./Assests/clients/a11.png";
 import client12 from "./Assests/clients/a12.png";
+import client14 from "./Assests/clients/a14.png";
+import client15 from "./Assests/clients/a15.png";
+import client16 from "./Assests/clients/a16.png";
+import client17 from "./Assests/clients/a17.png";
 
 import emailjs from 'emailjs-com';
 
@@ -118,18 +123,23 @@ const App: React.FC = () => {
   };
 
   const clients = [
-    { img: client1, name: "Nila Kutty Channel" },
-    { img: client2, name: "Vickys3vlogs" },
-    { img: client3, name: "Smart_salem" },
-    { img: client4, name: "Shaggis_vlogs" },
-    { img: client5, name: "Kiruthis_vlogs" },
-    { img: client6, name: "Walkwithjai" },
-    { img: client7, name: "Madras__foodie" },
-    // { img: client8, name: "ExploreWithDeeps" },
-    { img: client9, name: "Abi tamil youtuber" },
-    { img: client10, name: "theSingleshq" },
-    { img: client11, name: "Rams.review" },
-    { img: client12, name: "Kanagadhara Astro tv" },
+    { img: client1, name: "Buttercup Events" },
+    { img: client2, name: "Yasho Jwellwers" },
+    { img: client3, name: "The Encoded" },
+    { img: client4, name: "Outbox Nutrition" },
+    { img: client5, name: "Liza_SareeShaper" },
+    { img: client6, name: "Nila Kutty Channel" },
+    { img: client7, name: "Vickys3vlogs" },
+    { img: client8, name: "Smart_salem" },
+    { img: client9, name: "Shaggis_vlogs" },
+    { img: client10, name: "Kiruthis_vlogs" },
+    { img: client11, name: "Walkwithjai" },
+    { img: client12, name: "Madras__foodie" },
+    // { img: client13, name: "ExploreWithDeeps" },
+    { img: client14, name: "Abi tamil youtuber" },
+    { img: client15, name: "theSingleshq" },
+    { img: client16, name: "Rams.review" },
+    { img: client17, name: "Kanagadhara Astro tv" },
   ];
   const settings = {
     dots: true,
@@ -464,7 +474,7 @@ const App: React.FC = () => {
               <div className="absolute inset-0 w-full h-full bg-gradient-to-t from-black/80 via-black/50"></div>
             </div>
             <div className="relative p-6 px-6 py-14 md:px-12">
-              <h2 className="mb-6 text-2xl font-medium text-white">Head of Software Department</h2>
+              <h2 className="mb-6 text-2xl font-medium text-white">Co-Founder & Head of Software Department</h2>
               <h5 className="text-xl font-semibold text-gray-400">Kavin .C.S</h5>
             </div>
           </div>
